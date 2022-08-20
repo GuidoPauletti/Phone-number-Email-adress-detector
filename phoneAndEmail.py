@@ -19,7 +19,7 @@ phoneRegex = re.compile(r'''(
     (\s*|-|\.)?         #separador
     (\(?\d{2,5}\)?)     #codigo de area
     (\s*|-|\.)          #separador
-    (\d{2,5})           #caracteriztica
+    (\d{3,5})           #caracteriztica
     (\s*|-|\.)?         #separador
     (\d{2,5})           #extension
 )''', re.VERBOSE)
